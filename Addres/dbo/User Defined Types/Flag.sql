@@ -1,0 +1,1 @@
+﻿CREATE TYPE [Flag] FROM bit NOT NULL;

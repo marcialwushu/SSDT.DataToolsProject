@@ -1,0 +1,1 @@
+﻿CREATE TYPE [NameStyle] FROM bit NOT NULL;
