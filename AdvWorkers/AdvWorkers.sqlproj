@@ -88,6 +88,7 @@
     <Folder Include="Production\XMLSchemaCollections\" />
     <Folder Include="Sales\XMLSchemaCollections\" />
     <Folder Include="Scripts\" />
+    <Folder Include="doc" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\DatabaseLog.sql" />
@@ -224,5 +225,8 @@
     <Build Include="Sales\XMLSchemaCollections\StoreSurveySchemaCollection.sql" />
     <Build Include="ExtendedProperties.sql" />
     <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
+    <Build Include="doc\TestPlan.sql" />
+    <Build Include="doc\FullTextCatalog1.sql" />
+    <Build Include="doc\SetRule.sql" />
   </ItemGroup>
 </Project>
